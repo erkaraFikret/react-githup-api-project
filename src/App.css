@@ -1,38 +1,127 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.container {
+  width: 70%;
+  margin: 1rem auto;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.input-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2.75rem;
+  margin: 1.25rem 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.input {
+  height: 86%;
+  width: 33.333333%;
+  color: rgb(31 41 55);
+  padding: 0 0.5rem;
+  font-weight: 600;
+  outline: none;
+}
+
+.input-button {
+  height: 100%;
+  background-color: rgb(20 184 166);
+  font-weight: 600;
+  padding: 0 1rem;
+}
+
+.userInfo-container {
+  padding: 1.25rem 0;
+}
+
+.userInfo-button {
+  padding: 0.25rem 1.25rem;
+  font-weight: 500;
+  margin: 0 0.25rem;
+  background-color: #319795;
+  border-radius: 0.25rem;
+  color: #fff;
+  cursor: pointer;
+}
+
+.info {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-top: 2rem;
+  gap: 1.5rem;
+}
+
+.info-img {
+  width: 350px;
+  border-width: 4px;
+  border: 4px solid #319795;
+}
+
+
+
+.info-text {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+
+
+}
+
+.info-text h1 {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.info-text span {
+  color: #319795;
+  font-size: 1rem;
+  line-height: 1.5rem
+}
+
+.visit-button {
+  padding: 0.25rem 1.25rem;
+  font-weight: bold;
+  background-color: #319795;
+  border-radius: 0.25rem;
+  color: #fff;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+.userİnfo-buttons {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  padding-bottom: 1rem;
+  margin-bottom: 1.5rem;
+  margin-top: 4.5rem;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  border-bottom: 2px solid gray;
+}
+
+button {
+  background-color: transparent;
+  color: #fff;
+  font-size: 1.25rem;
+
+}
+
+.active {
+  color: #319795;
+}
+
+.repo {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.75rem;
+  margin: 0 auto;
+}
+
+.events {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.75rem;
+  margin: 0 auto;
 }

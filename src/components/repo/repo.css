@@ -1,0 +1,26 @@
+.repo-container{
+    margin-top: 0.7rem;
+    background-color: rgb(17 24 39);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.repo-link {
+    color: #319795;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.repo-link:hover{
+    text-decoration: underline;
+}
+.repo-info{
+    display: flex;
+    gap: 2rem;
+}
+
+.repo-info h1{
+    font-size: 1rem;
+}

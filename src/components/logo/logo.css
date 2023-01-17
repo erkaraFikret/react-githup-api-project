@@ -1,0 +1,21 @@
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.1rem;
+    border-bottom: 2px solid gray;
+    margin-bottom: 1rem;
+}
+.logo-img{
+    width: 110px;
+    height: 110px;
+    margin-bottom: 1rem;
+}
+.logo-title{
+    font-size: 24px;
+    font-style: italic;
+}
+
+.logo-title::first-letter{
+    font-size: 2.5rem;
+}

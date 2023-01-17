@@ -1,0 +1,12 @@
+.loading-container{
+    height: 24rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loading-title{
+    color: #4fd1c5;
+    font-size: 2rem;
+    font-weight: bold;
+    
+}
